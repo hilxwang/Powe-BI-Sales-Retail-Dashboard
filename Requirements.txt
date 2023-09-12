@@ -1,0 +1,29 @@
+Requirements:
+#1.
+Need a Power BI data model to analyze order data on an ad-hoc basis.
+
+#2.
+Source file cannot change.
+
+#3.
+Need the following measures
+	1. Cost of goods sold
+	2. Year over year sales growth by order date
+	3. Sales amount discounted
+	4. Consumer sales
+	5. Amount returned
+	
+	(Extra requirement - If time permits)
+	6. Rolling 4 months sales by order date
+	
+#4.
+Need to see the last time the data model was refreshed.
+
+#5.
+Need to be able to see sales both by month ordered and month shipped.
+
+#6.
+Need at least 1 page visual analysis in Power BI.
+
+#7. (Extra requirement - If time permits)
+Need to be able to change source location of the csv file depending on the development environment without using the Query Editor.
