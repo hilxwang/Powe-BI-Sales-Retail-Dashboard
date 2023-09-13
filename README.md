@@ -11,7 +11,7 @@ The data, content, and final delivery I shared on GitHub utilize mock-up data du
     * [Design Considerations - Assumptions](#5.2)
     * [Technical Challenges - Highlights](#5.3)
     * [Business Insights - Recommendations](#5.4)
-    * [Lesson Learned](#5.5)
+* [6. Lessons Learned](#6)
 
 <a id="1"></a>
 ### 1. Introduction
@@ -84,7 +84,15 @@ The dataset consists of a total of 9 tables, including 3 source data tables and 
 3. The Return Rate serves as a useful key performance indicator for the product team, aiding in the formulation of product plans.
 <br />
 
-<a id="5.5"></a>
+<a id="6"></a>
 #### Lesson Learned
 
-The lesson learned from the case emphasizes the value of effectively managing datasets to extract insights, utilizing dimensions, KPIs, and analysis techniques while considering the purpose and audience of each delivery. It underscores the significance of secure data access and customized reporting aligned with user roles. Leveraging data enables informed actions and enhances organizational performance.
+- **Flexibility with Parameterized Variables**: Implementing parameterized environmental variables enhanced flexibility and adaptability for future deployments. This approach allowed seamless transitions between different environments, improving the project's scalability.
+
+- **Data Refresh and Up-to-Date Analysis**: Utilizing M code for data refresh ensured that the analysis was based on the most current data. Keeping data up-to-date is essential for accurate and informed decision-making. The ability to automatically refresh data reduced manual efforts and enhanced data accuracy.
+
+- **Gross Margin Rate for Profitability Analysis**: The Gross Margin Rate emerged as a vital metric for understanding individual product profitability. Analyzing this rate helped identify high-margin products contributing significantly to overall profitability. By focusing on these high-margin products, the project contributed to maximizing revenue.
+
+- **Short-Term and Long-Term Trend Analysis**: Analyzing both rolling 4-month trends and year-over-year trends provided valuable insights. Short-term trends helped optimize inventory management, while long-term trends allowed for setting performance benchmarks. This dual approach enhanced the project's ability to respond to both immediate and long-term market dynamics.
+
+- **Return Rate as a Performance Indicator**: Monitoring the Return Rate served as a valuable key performance indicator for the product team. Understanding return rates helped in formulating product plans to minimize returns and maximize profitability. By addressing the reasons behind returns, the project contributed to improving product quality and customer satisfaction.
