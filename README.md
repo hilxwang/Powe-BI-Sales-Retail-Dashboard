@@ -5,12 +5,13 @@ The data, content, and final delivery I shared on GitHub utilize mock-up data du
 * [1. Introduction](#1)
 * [2. Specifications](#2)
 * [3. Dataset](#3)
-* [4. Results](#4)
-    * [Proof of Concept Dadhboard Design](#4.1)
-    * [Design Considerations - Assumptions](#4.2)
-    * [Technical Challenges - Highlights](#4.3)
-    * [Business Insights - Recommendations](#4.4)
-    * [Lesson Learned](#4.5)
+* [4. Data Model](#4)
+* [5. Results](#5)
+    * [Proof of Concept Dadhboard Design](#5.1)
+    * [Design Considerations - Assumptions](#5.2)
+    * [Technical Challenges - Highlights](#5.3)
+    * [Business Insights - Recommendations](#5.4)
+    * [Lesson Learned](#5.5)
 
 <a id="1"></a>
 ### 1. Introduction
@@ -49,8 +50,12 @@ The dataset consists of a total of 9 tables, including 3 source data tables and 
 <br />
 
 <a id="4"></a>
-### 4. Results
-<a id="4.1"></a>
+### 4. Data Model <a name="data-model"></a>
+![256943677-00345b6d-db02-4f3f-ae6f-92cf428ea6eb](https://github.com/hilxwang/Powe-BI-Sales-Retail-Dashboard/assets/96967687/80f2fcd5-23ad-43bb-87cb-6156d57d94d6)
+
+<a id="5"></a>
+### 5. Results
+<a id="5.1"></a>
 #### Proof of Concept Dadhboard Design
 ![Powe-BI-Sales-Retail-Dashboard_Page_1](https://github.com/hilxwang/Powe-BI-Sales-Retail-Dashboard/assets/96967687/f5ca3e85-7acc-4d64-8ef0-5953089f5a54)
 ![Powe-BI-Sales-Retail-Dashboard_Page_2](https://github.com/hilxwang/Powe-BI-Sales-Retail-Dashboard/assets/96967687/8064d548-6d32-4e52-83d9-9e84e65d48ac)
@@ -58,28 +63,28 @@ The dataset consists of a total of 9 tables, including 3 source data tables and 
 ![Powe-BI-Sales-Retail-Dashboard_Page_4](https://github.com/hilxwang/Powe-BI-Sales-Retail-Dashboard/assets/96967687/555d5c81-1781-40fe-a897-1ff23b1863cb)
 <br />
 
-<a id="4.2"></a>
+<a id="5.2"></a>
 #### Design Considerations - Assumptions
 1. SCD: Product - Employing SCD techniques to manage changes in product data over time<br />
 2. Postcode serves as the primary key in the Region hierarchy - Utilizing postcode as the unique identifier in the hierarchical structure of regions<br />
 3. Data security implementation - Region managers granted access to specific regional KPIs based on their login credentials, ensuring restricted visibility aligned with their managerial responsibilities.
 <br />
 
-<a id="4.3"></a>
+<a id="5.3"></a>
 #### Technical Challenges - Highlights
 1. Implement parameterized environmental variables for future deployments to enhance flexibility and adaptability.<br />
 2. Utilized M code to incorporate the latest refresh time, ensuring up-to-date data for analysis and reporting.<br />
 3. Developed custom functions for diverse purposes, enabling streamlined and efficient processes.
 <br />
 
-<a id="4.4"></a>
+<a id="5.4"></a>
 #### Business Insights - Recommendations
 1. The Profit Rate metric is highly valuable for informing product purchasing and pricing strategies.<br />
 2. Through the analysis of customers' shopping habits and their Gross Margin (%), the CRM team can effectively plan targeted campaigns for specific customers.<br />
 3. The Return Rate serves as a useful key performance indicator for the product team, aiding in the formulation of product plans.
 <br />
 
-<a id="4.5"></a>
+<a id="5.5"></a>
 #### Lesson Learned
 
 The lesson learned from the case emphasizes the value of effectively managing datasets to extract insights, utilizing dimensions, KPIs, and analysis techniques while considering the purpose and audience of each delivery. It underscores the significance of secure data access and customized reporting aligned with user roles. Leveraging data enables informed actions and enhances organizational performance.
